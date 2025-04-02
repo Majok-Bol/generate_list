@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.grey,
         appBar: AppBar(title: Text('Generate list items',style: TextStyle(color: Colors.white,fontSize: 25),),centerTitle: true,backgroundColor: Colors.purple,),
         body: Container(
           margin: EdgeInsets.all(10),
